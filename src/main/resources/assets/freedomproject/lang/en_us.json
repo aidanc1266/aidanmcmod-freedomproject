@@ -1,6 +1,11 @@
 {
   "item.freedomproject.sapphire": "Sapphire",
   "item.freedomproject.raw_sapphire": "Raw Sapphire",
+  "item.freedomproject.ruby": "Ruby",
+  "item.freedomproject.pearl": "Pearl",
+
+  "block.freedomproject.sapphire_block": "Block of Sapphire",
+  "block.freedomproject.raw_sapphire_block": "Block of Raw Sapphire",
 
   "creativetab.freedom_tab": "Sapphire Test Tab"
 }

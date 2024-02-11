@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "freedomproject:block/sapphire_block"
+    }
+  }
+}

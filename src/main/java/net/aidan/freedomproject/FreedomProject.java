@@ -1,6 +1,7 @@
 package net.aidan.freedomproject;
 
 import com.mojang.logging.LogUtils;
+import net.aidan.freedomproject.block.ModBlocks;
 import net.aidan.freedomproject.item.ModCreativeModeTabs;
 import net.aidan.freedomproject.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -45,6 +46,7 @@ public class FreedomProject
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -61,6 +63,8 @@ public class FreedomProject
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept((ModItems.SAPPHIRE));
             event.accept((ModItems.RAW_SAPPHIRE));
+            event.accept((ModItems.RUBY));
+            event.accept((ModItems.PEARL));
         }
     }
 

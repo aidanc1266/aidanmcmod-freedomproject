@@ -1,6 +1,7 @@
 package net.aidan.freedomproject.item;
 
 import net.aidan.freedomproject.FreedomProject;
+import net.aidan.freedomproject.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,10 +19,16 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.freedom_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        //materials
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
-
+                        pOutput.accept(ModItems.RUBY.get());
+                        pOutput.accept(ModItems.PEARL.get());
                         pOutput.accept(Items.DIAMOND);
+
+                        //blocks
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                     })
                     .build());
 
