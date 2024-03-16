@@ -6,6 +6,9 @@
 
   "block.freedomproject.sapphire_block": "Block of Sapphire",
   "block.freedomproject.raw_sapphire_block": "Block of Raw Sapphire",
+  "block.freedomproject.ruby_block": "Block of Ruby",
+  "block.freedomproject.ruby_ore": "Ruby Ore",
 
-  "creativetab.freedom_tab": "Sapphire Test Tab"
+
+  "creativetab.freedom_tab": "Mod Test Tab"
 }

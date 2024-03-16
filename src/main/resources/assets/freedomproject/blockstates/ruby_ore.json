@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "freedomproject:block/ruby_ore"
+    }
+  }
+}
