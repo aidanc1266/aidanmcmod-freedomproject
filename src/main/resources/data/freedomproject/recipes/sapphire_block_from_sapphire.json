@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "catagory": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "freedomproject:sapphire"
+    }
+  },
+  "result": {
+    "item": "freedomproject:sapphire_block"
+  }
+}
